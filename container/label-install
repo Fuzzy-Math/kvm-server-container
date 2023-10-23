@@ -24,6 +24,7 @@ install_common() {
    mkdir -p /host/etc/libvirt
    mkdir -p /host/var/lib/libvirt/images
    mkdir -p /host/etc/libvirt/qemu/networks
+   mkdir -p /host/usr/share/qemu
    mkdir -p ${SYSTEMD_INSTALL_PATH}
 }
 
